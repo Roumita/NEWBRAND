@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body{
+	background-color: #fcf5f5;
+	
+}
+
+.header{
+	background-image: url("../img/perfecto.jpg");
+	background-size: cover;
+	padding-bottom: 300px;
+}
+.header.container{
+	width: 1170px;
+	margin: 0 auto;
+
+
+	
+}
+.logo{
+	float :left;
+	background-color: #00ffff;
+	margin-top: 20px;
+	
+
+}
+.logo.img{
+	width:20px;
+	height: 20px;
+
+}
+.menu{
+	float:right;
+
+}
+
+.menu ul{
+	list-style: none;
+
+	
+	
+}
+.menu ul li{
+	display: inline-block;
+	margin: 25px;
+}
+.menu ul li a{
+	color:#eef5f5;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.separation{
+	clear: both;
+}
+
+.home button{
+	background-color: #f4f7f7;
+}
+.home h1{
+	padding-top: 70px;
+}
+.home{
+	text-align: center;
+	color: #f7fcfc;
+	margin-top: px;
+}
+.services{
+	padding:20px 0;
+}
+.services .section_titre{
+	text-align: center;
+}
+.icone{
+	width: 25%;
+	float:left;
+	text-align: center;
+	margin-top: 80px;
+}
+.icone img{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border:3px solid #00ffff;
+
+}
+.icone p{
+	width: 200px;
+	padding-left: 60px;
+}
+.clearfix{
+	clear: both;
+}
+.portfolio{
+	padding: 20px;
+	
+}
+.portfolio .section_titre{
+	text-align: center;
+}
+ .item{
+	width: 16.66%;
+	float: left;
+	text-align: center;
+	margin-right:10%;
+
+}
+
+.portfolio img{
+	width: 400px;
+	height: 200px;
+	border:3px #f5f8f8 solid;
+	display: inline-flex;
+	
+}
+.carrousels ul li{
+	display: inline-block;
+	margin: 25px;
+}
+.carrousels{
+	text-align: center;
+}
+.carrousels a{
+	color:  #080c0c;
+	text-decoration: none;
+
+}
+.separateur{
+	clear: both;
+}
+
+
+
+
+.prev{
+	
+	color: #081313;
+	font-style: italic;
+	margin-top: 10px;
+
+}
+.next{
+	color: #081313;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.contact-info{
+	padding-left: 100px;
+	padding-top: 40px;
+}
+.contact-form{
+	padding-left: 500px;
+}
+.contact-container{
+    display: inline-flex;
+    
+}
+.contact-info span{
+   font-size: 20px;
+}
+.contact-info h3{
+	color: #0b1111;
+    
+}
+.contact-input{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid black;
+    font-size: 15px;
+    margin-bottom:20px;
+    border-radius: 10px;
+}
+ .button{
+    display: block;
+    
+    
+    padding: 10px 30px;
+    margin-left: auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+.menu{
+	
+}
+.footer{
+	
+}
+.coordonnees{
+	padding-top: 100px;
+	text-align: center;
+}
+.propos-container{
+	display: inline-flex;
+}
+.propos-text{
+	width: 30%;
+	padding-left: 200px;
+}
+.propos-photo img{
+	
+	padding-left:300px;
+	display: flex;
+    justify-content: center;
+    padding-top: 10px;
+   
+    
+    border :10px 5px 10px 5px;
+    
+}
+
+
